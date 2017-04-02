@@ -1,0 +1,2 @@
+
+  lt-proc -w '/Users/varie/Documents/apertium/gsoc/sah-kaz/apertium-kaz-sah/.deps/sah.automorf.bin' | cg-proc -w '/Users/varie/Documents/apertium/gsoc/sah-kaz/apertium-kaz-sah/sah-kaz.rlx.bin' | apertium-tagger -g $2 '/Users/varie/Documents/apertium/gsoc/sah-kaz/apertium-kaz-sah/sah-kaz.prob' 
