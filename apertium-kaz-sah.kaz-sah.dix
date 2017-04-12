@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчzшШщЩъЪыЫьЬэЭюЮяЯһөӨүҮҺҺҥҤҕҔәӘғҒіІқҚңҢөӨұҰүҮҺһ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -98,7 +98,42 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
       <e><p><l>house<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
+	  
+	  <!-- Nouns -->
+	  
 	  <e><p><l>бақша<s n="n"/></l><r>сад<s n="n"/></r></p></e>
+	  <e><p><l>ауа райы<s n="n"/></l><r>күн-дьыл<s n="n"/></r></p></e>
+	  <e><p><l>кеше<s n="n"/></l><r>бэҕэһээ<s n="n"/></r></p></e>
+	  <e><p><l>дала<s n="n"/></l><r>таһырдьа<s n="n"/></r></p></e> <!-- no таһырдьа -->
+	  <e><p><l>үй<s n="n"/></l><r>дьиэ<s n="n"/></r></p></e>
+	  <e><p><l>бала<s n="n"/></l><r>уол<s n="n"/></r></p></e> <!-- does бала mean children not boy? -->
+	  <e><p><l>қыз<s n="n"/></l><r>кыыс<s n="n"/></r></p></e>
+	  <e><p><l>қарындас<s n="n"/></l><r>балыс<s n="n"/></r></p></e>
+	  <e><p><l>күшік<s n="n"/></l><r>ыт оҕото<s n="n"/></r></p></e> <!-- is it okay? what to do with word ыт? which means dog, not small dog -->
+	  <e><p><l>бала<s n="n"/></l><r>оҕо<s n="n"/></r></p></e> <!-- what if there is several translations for one word? -->
+	  <e><p><l>мысық<s n="n"/></l><r>куоска<s n="n"/></r></p></e>
+	  <e><p><l>ана<s n="n"/></l><r>ийэ<s n="n"/></r></p></e>
+	  <e><p><l>терезе<s n="n"/></l><r>түннүк<s n="n"/></r></p></e>
+	  <e><p><l>ағаш<s n="n"/></l><r>мас<s n="n"/></r></p></e>
+	  <e><p><l>көз<s n="n"/></l><r>харах<s n="n"/></r></p></e>
+	  <e><p><l>қол<s n="n"/></l><r>илии<s n="n"/></r></p></e>
+	  <e><p><l>ойын<s n="n"/></l><r>оонньуу<s n="n"/></r></p></e>
+	  <e><p><l>жауап<s n="n"/></l><r>эппиэт<s n="n"/></r></p></e>
+	  <e><p><l>сұрақ<s n="n"/></l><r>ыйытыы<s n="n"/></r></p></e>
+	  <e><p><l>адам<s n="n"/></l><r>дьон<s n="n"/></r></p></e>
+	  <e><p><l>үстел<s n="n"/></l><r>остуол<s n="n"/></r></p></e>
+	  <e><p><l>орындық<s n="n"/></l><r>олоппос<s n="n"/></r></p></e>
+	  <e><p><l>дыбыс<s n="n"/></l><r>тыас<s n="n"/></r></p></e>
+	  <e><p><l>аң<s n="n"/></l><r>кыыл<s n="n"/></r></p></e>
+	  <e><p><l>құс<s n="n"/></l><r>көтөр<s n="n"/></r></p></e>
+	  <e><p><l>басын<s n="n"/></l><r>төбө<s n="n"/></r></p></e>
+	  <e><p><l>су<s n="n"/></l><r>уу<s n="n"/></r></p></e>
+	  <e><p><l>уақыт<s n="n"/></l><r>кэм<s n="n"/></r></p></e>
+	  
+	  <!-- Adjectives -->
+	  
+	  <e><p><l>жақсы<s n="adj"/></l><r>үчүгэй<s n="adj"/></r></p></e>
+	  <e><p><l>жылы<s n="adj"/></l><r>сылаас<s n="adj"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
